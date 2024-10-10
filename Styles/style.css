@@ -15,6 +15,7 @@
     justify-content: center; */
     align-items: center;
     height: 85vh;
+    margin-bottom: 100px;
 
 
 }
@@ -60,4 +61,84 @@
     text-align: center;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+}
+/* navbar end */
+
+#main-content{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    padding: 120px;
+}
+.top-content{
+    text-align: center;
+}
+.top-content .main-text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    line-height: 80px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: -40px;
+}
+.step-1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin-top: 50px;
+    background-color: #FEFEFE; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #FEFEFE, #FAFAFA);
+    padding: 100px;
+    border-radius: 20px;
+}
+.step-1-1{
+    flex-grow: 1;
+}
+.i-will
+{
+    color: #555963;
+    font-family: Azeret Mono;
+    font-size: 36px;
+    
+}
+.one {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+  
+.two {
+    flex: 1 1 auto;
+    width: 100%;
+    text-align: center;
+  }
+.text-content{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding: 30px 0;
+    opacity: 0.7;
+}
+.learn-more{
+    font-family: Azeret Mono;
+    color: #555963;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid #555963;
+    text-decoration: none;
+}
+.step-2{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin-top: 50px;
+    background-color: #FEFEFE; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to left, #FEFEFE, #FAFAFA);
+    padding: 100px;
+    border-radius: 20px;
 }
