@@ -21,7 +21,7 @@
 }
 
 
-#hero .hero-content{
+#hero .hero-content {
     text-align: center;
     padding: 50px 0 100px 0;
 }
@@ -62,19 +62,22 @@
     border-radius: 8px;
     background: rgb(13, 19, 33);
 }
+
 /* navbar end */
 
-#main-content{
+#main-content {
     width: 70%;
     margin: 0 auto;
     background-color: #FAFAFA;
     border-radius: 20px;
     padding: 120px;
 }
-.top-content{
+
+.top-content {
     text-align: center;
 }
-.top-content .main-text{
+
+.top-content .main-text {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 48px;
@@ -83,37 +86,42 @@
     text-align: center;
     margin-bottom: -40px;
 }
-.step-1{
+
+.step-1 {
     display: flex;
     flex-direction: row;
     /* justify-content: space-around; */
     margin-top: 50px;
-    background-color: #FEFEFE; /* For browsers that do not support gradients */
+    background-color: #FEFEFE;
+    /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, #FEFEFE, #FAFAFA);
     padding: 100px;
     border-radius: 20px;
 }
-.step-1-1{
+
+.step-1-1 {
     flex-grow: 1;
 }
-.i-will
-{
+
+.i-will {
     color: #555963;
     font-family: Azeret Mono;
     font-size: 36px;
-    
+
 }
+
 .one {
     flex: 1 1 auto;
     width: 100%;
-  }
-  
+}
+
 .two {
     flex: 1 1 auto;
     width: 100%;
     text-align: center;
-  }
-.text-content{
+}
+
+.text-content {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -123,7 +131,8 @@
     padding: 30px 0;
     opacity: 0.7;
 }
-.learn-more{
+
+.learn-more {
     font-family: Azeret Mono;
     color: #555963;
     font-size: 20px;
@@ -132,13 +141,37 @@
     border: 1px solid #555963;
     text-decoration: none;
 }
-.step-2{
+
+.step-2 {
     display: flex;
     flex-direction: row;
     /* justify-content: space-around; */
     margin-top: 50px;
-    background-color: #FEFEFE; /* For browsers that do not support gradients */
+    background-color: #FEFEFE;
+    /* For browsers that do not support gradients */
     background-image: linear-gradient(to left, #FEFEFE, #FAFAFA);
     padding: 100px;
     border-radius: 20px;
+}
+
+#video-content .top-content .main-text{
+    margin-top: 50px;
+}
+
+.video iframe{
+    border-radius: 20px;
+    
+
+}
+.video-content-1{
+    border-radius: 16px;
+    border: 1px solid #555963;
+    padding: 50px;
+}
+.bordar-1{
+    width: 5%;
+    margin: 0 auto;
+    border: 1px solid red;
+    margin-top: -40px;
+    margin-bottom: 40px;
 }
